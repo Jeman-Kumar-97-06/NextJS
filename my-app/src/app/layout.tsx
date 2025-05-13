@@ -24,9 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="text-red-500 text-2xl font-bold animate-fade-in">
+          Root Layout
+      </div>
         {children}
       </body>
     </html>
